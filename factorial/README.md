@@ -10,11 +10,11 @@ The programmers understood they had no chance to solve the problem. But because 
 
 For example, they defined the function `Z`. For any positive integer `N, Z(N)` is the number of zeros at the end of the decimal form of number `N!`. They noticed that this function never decreases.
 
-If we have two numbers `N_1 < N_2​` then `Z(N_1)<= Z(N_2)`. It is because we can never "lose" any trailing zero by multiplying by any positive number. We can only get new and new zeros. The function `Z` is very interesting, so we need a computer program that can determine its value efficiently.
+If we have two numbers N<sub>1</sub> < N<sub>2</sub>​ then Z(N<sub>1</sub>)<= Z(N<sub>2</sub>). It is because we can never "lose" any trailing zero by multiplying by any positive number. We can only get new and new zeros. The function `Z` is very interesting, so we need a computer program that can determine its value efficiently.
 
 ## Input:
 
-There is a single positive integer `T` on the first line of input `(equal to about 100000)`. It stands for the number of numbers to follow. Then there are `T` lines, each containing exactly one positive integer number `N, 1 <= N <= 10^9`.
+There is a single positive integer `T` on the first line of input `(equal to about 100000)`. It stands for the number of numbers to follow. Then there are `T` lines, each containing exactly one positive integer number N, 1 <= N <= 10<sup>2</sup>.
 
 ## Output:
 
